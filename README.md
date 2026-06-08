@@ -137,6 +137,14 @@ Enforce policies and constrain agent inputs and outputs at runtime.
 - [LLM Guard](https://github.com/protectai/llm-guard) — Security toolkit that sanitizes prompts and responses by chaining multiple scanners.
 - [LangKit](https://github.com/whylabs/langkit) — Toolkit for extracting safety, quality, and security signals from prompts and responses.
 
+## Agent Identity Verification
+
+On-chain wallet identity verification for AI agents — verify who an agent is before it acts.
+
+| Tool | Description | License |
+|---|---|---|
+| [TWZRD Agent Intel](https://intel.twzrd.xyz) | Trust scoring MCP server for Solana agent wallets. Call `preflight_check(wallet)` (free) to get an on-chain trust score before allowing an agent to act; `get_trust_receipt(wallet)` returns an Ed25519-signed V5 receipt via x402 micropayment (<$0.01, <1s). MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}` | Live/SaaS |
+
 ## Red Teaming & Security Testing
 
 Probe agents for prompt injection, jailbreaks, and other failure modes before attackers do.
