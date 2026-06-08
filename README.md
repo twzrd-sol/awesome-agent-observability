@@ -87,6 +87,7 @@ Quickly narrow the field. *Self-hosted?* means an official open-source deploymen
 - [LangWatch](https://github.com/langwatch/langwatch) — Monitoring, evaluation, and analytics platform for LLM and agent applications.
 - [Weave](https://github.com/wandb/weave) — Weights & Biases toolkit for tracking, evaluating, and debugging LLM application calls.
 - [MLflow](https://github.com/mlflow/mlflow) — ML lifecycle platform with LLM tracing, evaluation, and prompt management features.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) — Agent wallet trust scoring for multi-agent observability pipelines. Verify AI agent identity before logging agent actions or granting production access. Free MCP with `score_agent(wallet)` and `preflight_check(wallet)` — zero-install via streamable HTTP.
 
 ## Evaluation Frameworks
 
